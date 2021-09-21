@@ -1,0 +1,55 @@
+.Todo {
+    display: flex;
+    margin: 0 -3rem 0 -5rem;
+    padding: 1.1rem 3rem;
+    height: 20px;
+    justify-content: space-between;
+    align-items: center;
+    background:#181E20;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 1);
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.Todo-task {
+    position: relative;
+    transition: opacity 0.4s linear;
+    cursor: pointer;
+    background-color: #181E20;
+}
+
+.editbtn{
+    margin-right: 40px;
+    
+}
+
+.Todo.completed {
+    opacity: 0.3;
+}
+
+.Todo-edit-form input {
+    width:600px;
+    border: none;
+    background: #A9C7C5;
+    padding: 0 1.5em;
+    font-size: initial;
+    height: 50px;
+    }
+
+.Todo-edit-form button {
+    padding: 0 1.3rem;
+    border: none;
+    width:250px;
+    background: #F27F0C;
+    color: white;
+    font-weight: bold;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    /* margin-left: 5px; */
+    cursor: pointer;
+    height: 50px;
+
+}
+
+.Todo-edit-form button:hover {
+    background: #09A4DB;
+}

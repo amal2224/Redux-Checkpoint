@@ -1,0 +1,42 @@
+.TodoInput {
+    display: flex;
+}
+
+.TodoInput input {
+    flex-grow: 1;
+    border: none;
+    background: #f7f1f1;
+    padding: 0 5px 0 20px ;
+    font-size: 20px;
+    height: 3rem;
+
+}
+
+.TodoInput button {
+    padding: 0 1.3rem;
+    border: none;
+    background: #09A4DB;
+    color: white;
+    font-weight: bold;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    margin-left: 5px;
+    cursor: pointer;
+    height: 3rem;
+    width:400px;
+    font-size: 20px;
+}
+
+.TodoInput button:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.description{
+    font-size: 25px;
+color:#697A98;
+margin-top: 70px;
+margin-bottom: -15px;
+}
+
+
+
+
